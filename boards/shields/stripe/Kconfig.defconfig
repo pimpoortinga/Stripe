@@ -1,0 +1,16 @@
+if SHIELD_STRIPE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Stripe"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_STRIPE_LEFT
+
+if SHIELD_STRIPE_LEFT || SHIELD_STRIPE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_STRIPE_LEFT || SHIELD_STRIPE_RIGHT
