@@ -9,6 +9,6 @@
 # shield: [ "corne_left", "corne_right" ]
  include:
    - board: nice_nano
-     shield: lucky_left
+     shield: stripe_left
    - board: nice_nano
-     shield: lucky_right
+     shield: stripe_right
